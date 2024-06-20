@@ -1,0 +1,28 @@
+### Test Root Endpoint
+GET http://localhost:3000/
+Content-Type: application/json
+
+### Test Contacts Endpoint
+GET http://localhost:3000/contacts
+Content-Type: application/json
+
+
+### Test Contacts by User ID 
+GET http://localhost:3000/contacts/6673a3d59fd578effb457225
+Content-Type: application/json
+
+
+### PRODUCTION DETAILS
+
+### Test Root Endpoint
+GET https://api-project-1-nbqj.onrender.com/
+Content-Type: application/json
+
+### Test Contacts Endpoint
+GET https://api-project-1-nbqj.onrender.com/contacts
+Content-Type: application/json
+
+
+### Test Contacts by User ID 
+GET https://api-project-1-nbqj.onrender.com/contacts/6673a3d59fd578effb457225
+Content-Type: application/json
