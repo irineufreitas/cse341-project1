@@ -8,7 +8,35 @@ Content-Type: application/json
 
 
 ### Test Contacts by User ID 
-GET http://localhost:3000/contacts/6673a3d59fd578effb457225
+GET http://localhost:3000/contacts/6673a3d59fd578effb457225 HTTP/1.1
+Content-Type: application/json
+
+###Create a New Contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Irineu",
+    "lastName": "Junior",
+    "email": "irineu.jr@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1995-06-18"
+}
+
+###Update a Contact by User ID
+PUT http://localhost:3000/contacts/6673a3d59fd578effb457225 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Monica",
+    "lastName": "Rodrigues",
+    "email": "monica.rodrigues@example.com",
+    "favoriteColor": "Orange",
+    "birthday": "1999-04-08"
+}
+
+###Delete a Contact by User ID
+DELETE  http://localhost:3000/contacts/6677a80836b0beb3272225d9 HTTP/1.1
 Content-Type: application/json
 
 
