@@ -5,7 +5,7 @@
     "description": "Users API",
     "version": "1.0.0"
   },
-  "host": "https://api-project-1-nbqj.onrender.com",
+  "host": "api-project-1-nbqj.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
